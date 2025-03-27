@@ -1,0 +1,30 @@
+@keyframes girar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .imagem-rotativa {
+    width: 200px; 
+    height: auto;
+    animation: girar 2s linear infinite; 
+  }
+  .rodar{
+    animation-name:girar;
+    animation-duration: 1s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 160px;
+    height: 160px;
+    position:absolute;
+    top: 9%;
+    right: 46.1%;
+    
+  }
+  
+
+  
