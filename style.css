@@ -25,6 +25,53 @@
     right: 46.1%;
     
   }
+
+
+  .padraoIMG {
+    height: 500px;
+    width: 800px;
+}
+
+body {
+  background: linear-gradient(to bottom, #264484, #1B88C9);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 2px solid white;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
   
+}
+  
+body {
+  font-size: 20px; /* Tamanho da fonte para o texto geral */
+}
+h1 {
+  font-size: 36px; /* Tamanho da fonte para títulos maiores */
+}
+p {
+  font-size: 20px; /* Tamanho da fonte para parágrafos */
+}
 
   
